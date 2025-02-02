@@ -1,5 +1,5 @@
 baseURL = 'https://shiitake256.net'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'shiitake256.net'
 theme = 'ananke'
 publishDir = 'docs'
