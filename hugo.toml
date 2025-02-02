@@ -1,5 +1,6 @@
 baseURL = 'https://shiitake256.net'
 languageCode = 'en-us'
 title = 'shiitake256.net'
-theme = 'ananke'
+# theme = 'ananke'
+theme = "mainroad"
 publishDir = 'docs'
