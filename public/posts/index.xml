@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Mon, 12 May 2025 14:56:03 +0900</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 22:56:23 +0900</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>日本語タイトル テスト</title>
+      <link>https://example.org/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <pubDate>Tue, 13 May 2025 22:56:23 +0900</pubDate>
+      
+      <guid>https://example.org/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;見出し 
+    &lt;div id=&#34;%E8%A6%8B%E5%87%BA%E3%81%97&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E8%A6%8B%E5%87%BA%E3%81%97&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;本文あいうえお&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://example.org/posts/my-second-post/</link>
+      <pubDate>Mon, 12 May 2025 14:56:03 +0900</pubDate>
+      
+      <guid>https://example.org/posts/my-second-post/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Content&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Thu, 01 May 2025 11:08:34 +0900</pubDate>
+      
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Content&lt;/p&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

@@ -4,10 +4,22 @@
 
   <url>
     <loc>https://example.org/</loc>
-    <lastmod>2025-05-12T14:56:03+09:00</lastmod>
+    <lastmod>2025-05-13T22:56:23+09:00</lastmod>
   </url>
   <url>
     <loc>https://example.org/posts/</loc>
+    <lastmod>2025-05-13T22:56:23+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/</loc>
+    <lastmod>2025-05-13T22:56:23+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/my-second-post/</loc>
     <lastmod>2025-05-12T14:56:03+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/my-first-post/</loc>
+    <lastmod>2025-05-01T11:08:34+09:00</lastmod>
   </url>
 </urlset>
