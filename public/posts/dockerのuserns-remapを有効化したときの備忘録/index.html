@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>My First Post &middot; shiitake256.net</title>
-  <meta name="title" content="My First Post &middot; shiitake256.net" />
+  <title>Dockerのuserns-remapを有効化したときの備忘録 &middot; shiitake256.net</title>
+  <meta name="title" content="Dockerのuserns-remapを有効化したときの備忘録 &middot; shiitake256.net" />
   
   <meta name="description" content="My awesome website" />
+  <meta name="keywords" content="Docker, " />
   
   
-  
-  <link rel="canonical" href="http://localhost:1313/posts/my-first-post/" />
+  <link rel="canonical" href="http://localhost:1313/posts/docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/" />
   
   
   
@@ -30,8 +30,8 @@
     integrity="sha512-NsPNeVDkUz&#43;n2jFQ2XLj7fNNB/g8AmT/BMrQlp39s7inBlsO1scwxtNKe61RbPxvalkXqx/bELJfSB&#43;KF7VMFg==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
-    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  <script type="text/javascript" src="/js/appearance.min.95088f3a3aba3e6c61c94a3e5d655bca00fdb62f240139114f327c0c3c76c8fbf38bbd0d1c8eb4e9fa8e36d5edd9182933692533cbf7c0b881595271db78cda9.js"
+    integrity="sha512-lQiPOjq6PmxhyUo&#43;XWVbygD9ti8kATkRTzJ8DDx2yPvzi70NHI606fqONtXt2RgpM2klM8v3wLiBWVJx23jNqQ=="></script>
   
   
   
@@ -64,19 +64,20 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
+  <meta property="og:url" content="http://localhost:1313/posts/docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/">
   <meta property="og:site_name" content="shiitake256.net">
-  <meta property="og:title" content="My First Post">
+  <meta property="og:title" content="Dockerのuserns-remapを有効化したときの備忘録">
   <meta property="og:description" content="My awesome website">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-05-01T11:08:34+09:00">
-    <meta property="article:modified_time" content="2025-05-01T11:08:34+09:00">
+    <meta property="article:published_time" content="2025-05-16T23:00:31+09:00">
+    <meta property="article:modified_time" content="2025-05-16T23:00:31+09:00">
+    <meta property="article:tag" content="Docker">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="My First Post">
+  <meta name="twitter:title" content="Dockerのuserns-remapを有効化したときの備忘録">
   <meta name="twitter:description" content="My awesome website">
 
   
@@ -85,33 +86,32 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "My First Post",
-    "headline": "My First Post",
+    "name": "Dockerのuserns-remapを有効化したときの備忘録",
+    "headline": "Dockerのuserns-remapを有効化したときの備忘録",
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/posts\/my-first-post\/",
+    "url" : "http:\/\/localhost:1313\/posts\/docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2\/",
     "author" : {
       "@type": "Person",
-      "name": "shiitake256"
+      "name": ""
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-05-01T11:08:34\u002b09:00",
-    "datePublished": "2025-05-01T11:08:34\u002b09:00",
+    "dateCreated": "2025-05-16T23:00:31\u002b09:00",
+    "datePublished": "2025-05-16T23:00:31\u002b09:00",
     
-    "dateModified": "2025-05-01T11:08:34\u002b09:00",
+    "dateModified": "2025-05-16T23:00:31\u002b09:00",
     
-    
+    "keywords": ["Docker"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3"
+    "wordCount": "318"
   }]
   </script>
 
 
   
   
-  <meta name="author" content="shiitake256" />
   
   
   
@@ -162,6 +162,20 @@
   <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">shiitake256.net</span>
+
+            
+            <img src="/img/blowfish_logo.png" width="1000" height="1000"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="shiitake256.net" />
+            
+
+        </a>
+    </div>
+    
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
@@ -186,10 +200,10 @@
 
             
             
-  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="Tags">
-        Tags
+    <p class="text-base font-medium" title="Categories">
+        Categories
     </p>
 </a>
 
@@ -345,10 +359,10 @@
 
                     
   <li class="mt-1">
-    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="Tags">
-            Tags
+        <p class="text-bg font-bg" title="Categories">
+            Categories
         </p>
     </a>
 </li>
@@ -383,7 +397,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      My First Post
+      Dockerのuserns-remapを有効化したときの備忘録
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -428,10 +442,16 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-01T11:08:34&#43;09:00">1 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>3 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2025-05-16T23:00:31&#43;09:00">16 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>318 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
+  
+  <span class="pl-2"><span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Draft
+  </span>
+</span></span>
   
 </div>
 
@@ -459,29 +479,8 @@
         
 <div class="flex author">
   
-    
-    
-      
-    
-    
-      
-        
-      
-      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="shiitake256" src="/img/blowfish_logo_hu_e74a130226122ae3.png" />
-    
-  
   <div class="place-self-center">
     
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      Author
-    </div>
-    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      shiitake256
-    </div>
-    
-    
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">A little bit about you</div>
     
     <div class="text-2xl sm:text-lg">
 </div>
@@ -512,17 +511,245 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Title 
-    <div id="title" class="anchor"></div>
+<h2 class="relative group">概要 
+    <div id="%E6%A6%82%E8%A6%81" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#title" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E6%A6%82%E8%A6%81" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Content</p>
+<p>Dockerのuserns-remapを有効化して、既存のコンテナをuserns-remap環境に移行したときの備忘録です。
+<code>userns-remap</code>（ユーザー名前空間リマップ）は、<strong>Docker</strong> や Linux コンテナのセキュリティに関連する機能の一つで、コンテナ内のユーザーをホストの低権限ユーザーにマッピング（リマップ）する仕組みです。
+<a href="https://docs.docker.jp/engine/security/userns-remap.html" target="_blank">ユーザ名前空間でコンテナを分離 — Docker-docs-ja 24.0 ドキュメント</a></p>
+
+
+<h2 class="relative group">環境 
+    <div id="%E7%92%B0%E5%A2%83" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%92%B0%E5%A2%83" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>OS: Fedora Linux 41 (KDE Plasma) x86_64</li>
+<li>Kernel: Linux 6.14.6-200.fc41.x86_64</li>
+<li>Docker version 27.3.1, build 2.fc41</li>
+</ul>
+
+
+<h2 class="relative group">手順 
+    <div id="%E6%89%8B%E9%A0%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%89%8B%E9%A0%86" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Docker設定ファイルに userns-remap を追加 
+    <div id="docker%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB-userns-remap-%E3%82%92%E8%BF%BD%E5%8A%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB-userns-remap-%E3%82%92%E8%BF%BD%E5%8A%A0" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code class="language-diff:" data-lang="diff:"> {
+     &#34;runtimes&#34;: {
+         &#34;nvidia&#34;: {
+             &#34;args&#34;: [],
+             &#34;path&#34;: &#34;nvidia-container-runtime&#34;
+         }
+-    }
++    },
++    &#34;userns-remap&#34;: &#34;dockremap&#34;
+ }
+</code></pre>
+
+<h3 class="relative group">Dockerデーモンを再起動 
+    <div id="docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E5%86%8D%E8%B5%B7%E5%8B%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E5%86%8D%E8%B5%B7%E5%8B%95" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>デーモン起動時に自動的に<code>dockremap</code>ユーザーと<code>/var/lib/docker/&lt;uid&gt;.&lt;gid&gt;</code>ディレクトリが自動作成される。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart docker.service docker.socket
+</span></span></code></pre></div>
+
+<h3 class="relative group">ディレクトリが作成されたことを確認 
+    <div id="%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%81%8C%E4%BD%9C%E6%88%90%E3%81%95%E3%82%8C%E3%81%9F%E3%81%93%E3%81%A8%E3%82%92%E7%A2%BA%E8%AA%8D" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%81%8C%E4%BD%9C%E6%88%90%E3%81%95%E3%82%8C%E3%81%9F%E3%81%93%E3%81%A8%E3%82%92%E7%A2%BA%E8%AA%8D" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>/var/lib/docker/<em>&lt;uid&gt;.&lt;gid&gt;</em> *ディレクトリが作成されていることを確認</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls -l /var/lib/docker
+</span></span></code></pre></div><p>コマンド実行例:</p>
+<pre tabindex="0"><code class="language-log" data-lang="log">$ sudo ls -l /var/lib/docker/
+[sudo] user02 のパスワード:
+合計 4
+drwx--x---. 1 root dockremap-root   154  5月 17 19:28 100000.100000
+drwx--x--x. 1 root root             158  1月 26 02:03 buildkit
+drwx--x---. 1 root root            1408  5月 11 02:35 containers
+-rw-------. 1 root root              36  1月 26 00:47 engine-id
+drwx------. 1 root root              16  1月 26 00:47 image
+drwxr-x---. 1 root root              10  1月 26 00:47 network
+drwx--x---. 1 root root           25954  5月 11 02:35 overlay2
+drwx------. 1 root root              20  1月 26 00:47 plugins
+drwx------. 1 root root               0  5月 10 12:18 runtimes
+drwx------. 1 root root               0  1月 26 00:47 swarm
+drwx------. 1 root root              50  5月 11 01:06 tmp
+drwx-----x. 1 root root             398  5月 10 12:18 volumes
+$
+</code></pre>
+
+<h3 class="relative group">ユーザーが作成されたことを確認 
+    <div id="%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E4%BD%9C%E6%88%90%E3%81%95%E3%82%8C%E3%81%9F%E3%81%93%E3%81%A8%E3%82%92%E7%A2%BA%E8%AA%8D" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E4%BD%9C%E6%88%90%E3%81%95%E3%82%8C%E3%81%9F%E3%81%93%E3%81%A8%E3%82%92%E7%A2%BA%E8%AA%8D" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">id dockremap
+</span></span></code></pre></div><p>コマンド実行例:</p>
+<pre tabindex="0"><code class="language-log" data-lang="log">$ id dockremap
+uid=975(dockremap) gid=972(dockremap) groups=972(dockremap)
+$
+</code></pre>
+
+<h2 class="relative group">Dockerデーモンを停止 
+    <div id="docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E5%81%9C%E6%AD%A2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E5%81%9C%E6%AD%A2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl stop docker.service docker.socket
+</span></span></code></pre></div>
+
+<h3 class="relative group">データの移行 
+    <div id="%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E7%A7%BB%E8%A1%8C" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E7%A7%BB%E8%A1%8C" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/buildkit /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/containers /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/engine-id /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/image /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/network /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/overlay2 /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/plugins /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/runtimes /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/swarm /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/tmp /var/lib/docker/100000.100000/
+</span></span><span class="line"><span class="cl">rsync -aHAX /var/lib/docker/volumes /var/lib/docker/100000.100000/
+</span></span></code></pre></div>
+
+<h3 class="relative group">オーナーの変更 
+    <div id="%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AE%E5%A4%89%E6%9B%B4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AE%E5%A4%89%E6%9B%B4" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo -i
+</span></span><span class="line"><span class="cl"><span class="nb">shopt</span> -s extglob
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">chown root:100000 /var/lib/docker/100000.100000
+</span></span><span class="line"><span class="cl">chown root:100000 /var/lib/docker/100000.100000/overlay2/!<span class="o">(</span>l<span class="o">)</span>
+</span></span><span class="line"><span class="cl">chown -R 100000:100000 /var/lib/docker/100000.100000/overlay2/*/diff
+</span></span><span class="line"><span class="cl">chown root:100000 /var/lib/docker/100000.100000/containers/*
+</span></span><span class="line"><span class="cl">chown 100000:100000 /var/lib/docker/100000.100000/containers/*/hostname
+</span></span><span class="line"><span class="cl">chown 100000:100000 /var/lib/docker/100000.100000/containers/*/resolv.conf
+</span></span><span class="line"><span class="cl">chown root:root /var/lib/docker/100000.100000/containers/*/resolv.conf.hash
+</span></span><span class="line"><span class="cl">chown root:100000 /var/lib/docker/100000.100000/containers/*/mounts
+</span></span><span class="line"><span class="cl">chown root:100000 /var/lib/docker/100000.100000/containers/*/checkpoints
+</span></span><span class="line"><span class="cl">chown -R 100000:100000 /var/lib/docker/100000.100000/volumes/*/_data
+</span></span></code></pre></div>
+
+<h3 class="relative group">SELinuxコンテキストの追加 
+    <div id="selinux%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E8%BF%BD%E5%8A%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#selinux%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E8%BF%BD%E5%8A%A0" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>userns-remap 機能をSELinuxのファイルコンテキストをついか</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo semanage fcontext -a -t container_ro_file_t <span class="s1">&#39;/var/lib/docker/[0-9]+\.[0-9]+/overlay2(/.*)?&#39;</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">SELinuxラベルの再設定 
+    <div id="selinux%E3%83%A9%E3%83%99%E3%83%AB%E3%81%AE%E5%86%8D%E8%A8%AD%E5%AE%9A" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#selinux%E3%83%A9%E3%83%99%E3%83%AB%E3%81%AE%E5%86%8D%E8%A8%AD%E5%AE%9A" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo restorecon -r /var/lib/docker/100000.100000
+</span></span></code></pre></div>
+
+<h2 class="relative group">Dockerデーモンを起動 
+    <div id="docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E8%B5%B7%E5%8B%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%92%E8%B5%B7%E5%8B%95" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl stop docker.service docker.socket
+</span></span></code></pre></div>
+
+<h3 class="relative group">コンテナ再作成 
+    <div id="%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E5%86%8D%E4%BD%9C%E6%88%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E5%86%8D%E4%BD%9C%E6%88%90" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 
           
           
@@ -545,8 +772,8 @@
           
         
       <script>
-        var oid = "views_posts\/my-first-post.md"
-        var oid_likes = "likes_posts\/my-first-post.md"
+        var oid = "views_posts\/Dockerのuserns-remapを有効化したときの備忘録.md"
+        var oid_likes = "likes_posts\/Dockerのuserns-remapを有効化したときの備忘録.md"
       </script>
       
       
@@ -566,30 +793,30 @@
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/my-second-post/">
+            <a class="flex group mr-3" href="/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >My Second Post</span
+                  >日本語タイトル テスト</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-05-12T14:56:03&#43;09:00">12 May 2025</time>
+                    <time datetime="2025-05-13T22:56:23&#43;09:00">13 May 2025</time>
                   
                 </span>
               </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>

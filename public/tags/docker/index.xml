@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on shiitake256.net</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on shiitake256.net</description>
+    <title>Docker on shiitake256.net</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on shiitake256.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (shiitake256)</managingEditor>
     <webMaster>youremail@example.com (shiitake256)</webMaster>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 16 May 2025 23:00:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 May 2025 23:00:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dockerのuserns-remapを有効化したときの備忘録</title>

@@ -6,35 +6,17 @@
     <description>Recent content on shiitake256.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (shiitake256)</managingEditor>
+    <webMaster>youremail@example.com (shiitake256)</webMaster>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Tue, 13 May 2025 22:56:23 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 May 2025 23:00:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>日本語タイトル テスト</title>
-      <link>http://localhost:1313/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/</link>
-      <pubDate>Tue, 13 May 2025 22:56:23 +0900</pubDate>
-      
-      <guid>http://localhost:1313/posts/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-%E3%83%86%E3%82%B9%E3%83%88/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>http://localhost:1313/posts/my-second-post/</link>
-      <pubDate>Mon, 12 May 2025 14:56:03 +0900</pubDate>
-      
-      <guid>http://localhost:1313/posts/my-second-post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Thu, 01 May 2025 11:08:34 +0900</pubDate>
-      
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <title>Dockerのuserns-remapを有効化したときの備忘録</title>
+      <link>http://localhost:1313/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</link>
+      <pubDate>Fri, 16 May 2025 23:00:31 +0900</pubDate>
+      <author>youremail@example.com (shiitake256)</author>
+      <guid>http://localhost:1313/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
       <description></description>
       
     </item>
