@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on shiitake256.net</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://shiitake256.net/series/</link>
     <description>Recent content in Series on shiitake256.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (shiitake256)</managingEditor>
     <webMaster>youremail@example.com (shiitake256)</webMaster>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 shiitake256</copyright>
+    <atom:link href="https://shiitake256.net/series/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on shiitake256.net</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://shiitake256.net/posts/</link>
     <description>Recent content in Posts on shiitake256.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (shiitake256)</managingEditor>
     <webMaster>youremail@example.com (shiitake256)</webMaster>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 16 May 2025 23:00:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 shiitake256</copyright>
+    <lastBuildDate>Fri, 16 May 2025 23:00:31 +0900</lastBuildDate><atom:link href="https://shiitake256.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dockerのuserns-remapを有効化したときの備忘録</title>
-      <link>http://localhost:1313/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</link>
+      <link>https://shiitake256.net/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</link>
       <pubDate>Fri, 16 May 2025 23:00:31 +0900</pubDate>
       <author>youremail@example.com (shiitake256)</author>
-      <guid>http://localhost:1313/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
+      <guid>https://shiitake256.net/posts/20250518-docker%E3%81%AEuserns-remap%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
       <description></description>
       
     </item>
